@@ -1,11 +1,84 @@
-<resources>
+<!-- Text styles -->
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="HeaderTitle" parent="AppTheme">
+        <item name="android:textSize">34sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
+        <item name="android:lineSpacingExtra">7sp</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
+    <style name="HeaderDate" parent="AppTheme">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CardTitle" parent="AppTheme">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CardSubtitle" parent="AppTheme">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ClassicText" parent="AppTheme">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">11sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubheaderTitle" parent="AppTheme">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
+        <item name="android:lineSpacingExtra">-7sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SubheaderDescription" parent="AppTheme">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BtnShowMore" parent="AppTheme">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Thin</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
+        <item name="android:lineSpacingExtra">9sp</item>
+        <item name="android:textColor">@color/purpe</item>
+    </style>
+
+    <style name="CardDetail" parent="AppTheme">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
+        <item name="android:lineSpacingExtra">9sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>
