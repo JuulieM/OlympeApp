@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">Olympe</string>
     <string name="aujourd_hui">Aujourd\'hui</string>
+    <string name="prochain_entrainement">Prochain entrainement</string>
 </resources>

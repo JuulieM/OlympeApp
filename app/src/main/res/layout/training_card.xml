@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:training_card="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/training_card"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        training_card:cardCornerRadius="10dp"
+        training_card:cardElevation="80dp">
+    <!--android:background="@drawable/training">-->
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/training_image"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+        <TextView
+                android:id="@+id/training_card_title"
+                style="@style/CardTitle"
+                android:text="@string/prochain_entrainement"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"/>
+
+        <TextView
+                android:id="@+id/training_card_subtitle"
+                style="@style/CardSubtitle"
+                android:layout_marginTop="37dp"
+                android:layout_marginLeft="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cardio – Haut du corps"
+                android:layout_marginStart="13dp"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
