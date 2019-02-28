@@ -15,7 +15,7 @@
 
     <style name="HeaderDate" parent="AppTheme">
         <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textStyle">normal</item>
         <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
         <item name="android:lineSpacingExtra">5sp</item>
@@ -24,7 +24,7 @@
 
     <style name="CardTitle" parent="AppTheme">
         <item name="android:textSize">22sp</item>
-        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textStyle">normal</item>
         <item name="android:lineSpacingExtra">2sp</item>
         <item name="android:textColor">@color/white</item>
@@ -32,7 +32,7 @@
 
     <style name="CardSubtitle" parent="AppTheme">
         <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textStyle">normal</item>
         <item name="android:lineSpacingExtra">2sp</item>
         <item name="android:textColor">@color/white</item>
@@ -40,7 +40,7 @@
 
     <style name="ClassicText" parent="AppTheme">
         <item name="android:textSize">13sp</item>
-        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textStyle">normal</item>
         <item name="android:lineSpacingExtra">11sp</item>
         <item name="android:textColor">@color/white</item>
@@ -48,7 +48,7 @@
 
     <style name="SubheaderTitle" parent="AppTheme">
         <item name="android:textSize">28sp</item>
-        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Bold</item>
+        <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textStyle">bold</item>
         <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
         <item name="android:lineSpacingExtra">-7sp</item>
@@ -57,7 +57,7 @@
 
     <style name="SubheaderDescription" parent="AppTheme">
         <item name="android:textSize">11sp</item>
-        <item name="android:fontFamily" tools:targetApi="jelly_bean">Roboto-Regular</item>
+        <item name="android:fontFamily">@font/roboto</item>
         <item name="android:textStyle">normal</item>
         <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
         <item name="android:lineSpacingExtra">10sp</item>

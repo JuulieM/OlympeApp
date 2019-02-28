@@ -9,8 +9,7 @@
         android:layout_marginLeft="13dp"
         android:layout_marginStart="13dp"
         training_card:cardCornerRadius="10dp"
-        training_card:cardElevation="80dp">
-    <!--android:background="@drawable/training">-->
+        training_card:cardElevation="3dp">
 
     <RelativeLayout
             android:layout_width="match_parent"
@@ -42,7 +41,7 @@
                 android:layout_marginLeft="13dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cardio – Haut du corps"
+                android:text="@string/description_du_prochain_entrainement"
                 android:layout_marginStart="13dp"/>
 
     </RelativeLayout>
