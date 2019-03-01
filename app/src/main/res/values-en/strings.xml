@@ -2,4 +2,8 @@
 <resources>
     <string name="aujourd_hui">Today</string>
     <string name="prochain_entrainement">Next training</string>
+    <string name="description_du_prochain_entrainement">Describe the next training session</string>
+    <string name="lorem_ipsum">Victitabant conlaticia clarae claudebantur claudebantur et indulta iustoque damnabantur
+        quod iustoque.
+    </string>
 </resources>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="training_card_attributes">
+    <declare-styleable name="TrainingCard">
         <attr name="titleAttr" format="reference"/>
         <attr name="subtitleAttr" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MessageCard">
+        <attr name="textAttr" format="reference"/>
+        <attr name="dateAttr" format="reference"/>
     </declare-styleable>
 
 </resources>

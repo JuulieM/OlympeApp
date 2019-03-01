@@ -1,9 +1,10 @@
-package com.example.olympeapp
+package com.example.olympeapp.ui
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
+import com.example.olympeapp.R
 import kotlinx.android.synthetic.main.training_card.view.*
 
 /**
@@ -22,18 +23,18 @@ class TrainingCard @JvmOverloads constructor(
         orientation = VERTICAL
 
         attrs?.let {
-            val typedArray = context.obtainStyledAttributes(it, R.styleable.training_card_attributes, 0, 0)
+            val typedArray = context.obtainStyledAttributes(it, R.styleable.TrainingCard, 0, 0)
 
             val title: CharSequence = resources.getText(
                 typedArray.getResourceId(
-                    R.styleable.training_card_attributes_titleAttr,
+                    R.styleable.TrainingCard_titleAttr,
                     R.string.prochain_entrainement
                 )
             )
 
             val subtitle: CharSequence = resources.getText(
                 typedArray.getResourceId(
-                    R.styleable.training_card_attributes_subtitleAttr,
+                    R.styleable.TrainingCard_subtitleAttr,
                     R.string.description_du_prochain_entrainement
                 )
             )

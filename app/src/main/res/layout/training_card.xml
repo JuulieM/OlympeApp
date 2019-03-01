@@ -3,13 +3,9 @@
         xmlns:training_card="http://schemas.android.com/apk/res-auto"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/training_card"
+        style="@style/Card"
         android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:layout_margin="5dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
-        training_card:cardCornerRadius="10dp"
-        training_card:cardElevation="3dp">
+        android:layout_height="82dp">
 
     <RelativeLayout
             android:layout_width="match_parent"
