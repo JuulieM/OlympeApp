@@ -8,5 +8,5 @@
     <string name="description_du_prochain_entrainement">Description du prochain entrainement</string>
     <string name="voir_plus">Voir plus</string>
     <string name="titre_de_la_partie">Titre de la partie</string>
-    <string name="subheader_description">Subheader description</string>
+    <string name="subheader_description">Description de la partie</string>
 </resources>

@@ -6,4 +6,7 @@
     <string name="lorem_ipsum">Victitabant conlaticia clarae claudebantur claudebantur et indulta iustoque damnabantur
         quod iustoque.
     </string>
+    <string name="voir_plus">Show more</string>
+    <string name="titre_de_la_partie">Part title</string>
+    <string name="subheader_description">Part description</string>
 </resources>

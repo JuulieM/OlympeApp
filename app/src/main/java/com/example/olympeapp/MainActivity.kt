@@ -3,6 +3,8 @@ package com.example.olympeapp
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
+import com.example.olympeapp.ui.Subheader
+import kotlinx.android.synthetic.main.subheader.view.*
 import java.text.SimpleDateFormat
 import java.util.*
 
