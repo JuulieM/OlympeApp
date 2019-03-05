@@ -11,4 +11,9 @@
         <attr name="dateAttr" format="string"/>
     </declare-styleable>
 
+    <declare-styleable name="Subheader">
+        <attr name="SubheaderTitleAttr" format="string"/>
+        <attr name="SubheaderDescriptionAttr" format="string"/>
+    </declare-styleable>
+
 </resources>
