@@ -1,6 +1,7 @@
 package com.example.olympeapp.ui
 
 import android.content.Context
+import android.support.v4.content.res.TypedArrayUtils.getResourceId
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
@@ -36,8 +37,6 @@ class MessageCard @JvmOverloads constructor(
 
             // Can get String instead of CharSequence
             message_card_text.text = text
-
-            typedArray.recycle()
         }
 
     }

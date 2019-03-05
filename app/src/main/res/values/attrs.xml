@@ -7,8 +7,8 @@
     </declare-styleable>
 
     <declare-styleable name="MessageCard">
-        <attr name="textAttr" format="reference"/>
-        <attr name="dateAttr" format="reference"/>
+        <attr name="textAttr" format="string"/>
+        <attr name="dateAttr" format="string"/>
     </declare-styleable>
 
 </resources>
