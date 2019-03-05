@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/subheader_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SubheaderTitle"
+                android:layout_marginStart="13.5dp"
+                android:text="@string/titre_de_la_partie"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+        />
+
+        <Button
+                android:id="@+id/btn_show_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/voir_plus"
+                style="@style/BtnShowMore"
+                android:background="@drawable/btn_show_more"
+                android:minHeight="22dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="13dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+        <TextView
+                android:id="@+id/subheader_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subheader_description"
+                style="@style/SubheaderDescription"
+                android:layout_marginStart="13.5dp"/>
+    </LinearLayout>
+</LinearLayout>
+
+
