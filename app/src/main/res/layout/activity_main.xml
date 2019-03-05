@@ -68,7 +68,8 @@
             <com.example.olympeapp.ui.Subheader
                     android:id="@+id/subheader_progression"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:SubheaderTitleAttr="@string/progression">
             </com.example.olympeapp.ui.Subheader>
 
 
